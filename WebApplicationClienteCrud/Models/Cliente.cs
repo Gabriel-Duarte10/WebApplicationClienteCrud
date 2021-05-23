@@ -9,17 +9,17 @@ namespace WebApplicationClienteCrud.Models
     public class Cliente
     {
         [Key]
-        public Guid CLI_ID { get; set; }
+        public Guid Id { get; set; }
         [Required]
-        public string CLI_NOME { get; set; }
+        public string Nome { get; set; }
         [Required]
-        public DateTime CLI_DATANASCIMENTO { get; set; }
+        public DateTime Data_de_Nascimento { get; set; }
         [Required]
-        public String CLI_ATIVO { get; set; }
+        public String Ativo { get; set; }
 
         public Cliente()
         {
-            CLI_ID = Guid.NewGuid();
+            Id = Guid.NewGuid();
         }
 
     }
