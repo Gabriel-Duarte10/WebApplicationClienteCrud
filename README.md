@@ -4,7 +4,7 @@ Para o cadastro de clientes tendo um Id, nome, data de nascimento e ativo.
 
 Abrir o projeto
 
-![](https://github.com/Gabriel-Duarte10/WebApplicationClienteCrud/blob/master/WebApplicationClienteCrud/Escrever_clientes.PNG)
+![](https://github.com/Gabriel-Duarte10/WebApplicationClienteCrud/blob/master/WebApplicationClienteCrud/Abrir%20projeto.PNG)
 
 Cadastrar, vizualizar, deletar, editar cadastro:
 
