@@ -13,6 +13,7 @@ namespace WebApplicationClienteCrud.Models
         [Required]
         public string Nome { get; set; }
         [Required]
+        [DisplayFormat(DataFormatString = "{0:dd/MM/yyyy}")]
         public DateTime Data_de_Nascimento { get; set; }
         [Required]
         public String Ativo { get; set; }
